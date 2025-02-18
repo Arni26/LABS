@@ -47,7 +47,7 @@ for x in thislist:
   print(x)
   
 thislist = ["apple", "banana", "cherry"]
-for i in range(len(thislist)):
+for i in range(0,len(thislist),2):
   print(thislist[i])
 
 #copy lists

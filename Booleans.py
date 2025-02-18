@@ -7,13 +7,6 @@ else:
   print("b is not greater than a")
 
 
-  x = "Hello"
-y = 15
-
-print(bool(x))
-print(bool(y))
-
-
 #The following will return False:
 
 bool(False)
