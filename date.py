@@ -36,7 +36,11 @@ def date_diff(date1, date2):
     dif = date2 - date1
     return dif.total_seconds()
 
-date1 = datetime(2024, 2, 1, 12, 0, 0)
+x = [int(i) for i in input().split()]
+
+date1 = datetime(x[0],x[1],x[2],x[3],x[4],x[5])
 date2 = datetime(2024, 2, 6, 14, 30, 0)
 
 print("Difference in seconds:", date_diff(date1, date2))
+
+
